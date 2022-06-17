@@ -4,7 +4,9 @@
   "description": "Todo App from the Frontend Mentor",
   "source": "src/index.html",
   "scripts": {
+    "build": "parcel build",
     "dev": "parcel src/index.html",
+    "start": "parcel serve",
     "format": "prettier --write \"src/**/*.{html,css,js,ts,json}\""
   },
   "repository": {
